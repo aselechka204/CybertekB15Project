@@ -1,0 +1,16 @@
+package day21;
+
+public class NestedLoop {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <=3 ; i++) {
+            System.out.println("Iteration"+i);
+            for (int x = 1; x <=5 ; x++) {
+                System.out.print(x+" ");
+
+            }
+            System.out.println();
+
+        }
+    }
+}
